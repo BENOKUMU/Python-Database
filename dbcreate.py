@@ -8,5 +8,6 @@ dataBase = mysql.connector.connect(
 
 cursorObject = dataBase.cursor()
 
+# creating database
 cursorObject.execute("CREATE DATABASE SOFTWARE")
-print("SOFTWARE Database is created")
+print("SOFTWARE Data base is created")
